@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		64517F2020D1559300C7D91A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64517F1F20D1559300C7D91A /* AppDelegate.swift */; };
-		64517F2220D1559300C7D91A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64517F2120D1559300C7D91A /* ViewController.swift */; };
 		64517F2520D1559300C7D91A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64517F2320D1559300C7D91A /* Main.storyboard */; };
 		64517F2720D1559500C7D91A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64517F2620D1559500C7D91A /* Assets.xcassets */; };
+		64517F3720D1598300C7D91A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64517F3620D1598300C7D91A /* LoginVC.swift */; };
+		64517F3920D16C3400C7D91A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64517F3820D16C3400C7D91A /* HomeVC.swift */; };
+		64517F3B20D16DA400C7D91A /* ExerciseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64517F3A20D16DA400C7D91A /* ExerciseVC.swift */; };
+		64517F3D20D16DB800C7D91A /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64517F3C20D16DB800C7D91A /* MyProfileVC.swift */; };
 		AF4DD5844891BA05B9E38851 /* Pods_Fitme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E371B240466D194287A1ED5 /* Pods_Fitme.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,10 +23,13 @@
 		416D73BACF9BE06AB9A15441 /* Pods-Fitme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitme.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fitme/Pods-Fitme.release.xcconfig"; sourceTree = "<group>"; };
 		64517F1C20D1559300C7D91A /* Fitme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64517F1F20D1559300C7D91A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		64517F2120D1559300C7D91A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		64517F2420D1559300C7D91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64517F2620D1559500C7D91A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64517F2B20D1559500C7D91A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64517F3620D1598300C7D91A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		64517F3820D16C3400C7D91A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		64517F3A20D16DA400C7D91A /* ExerciseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseVC.swift; sourceTree = "<group>"; };
+		64517F3C20D16DB800C7D91A /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +88,10 @@
 		64517F3220D1570800C7D91A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				64517F2120D1559300C7D91A /* ViewController.swift */,
+				64517F3620D1598300C7D91A /* LoginVC.swift */,
+				64517F3820D16C3400C7D91A /* HomeVC.swift */,
+				64517F3A20D16DA400C7D91A /* ExerciseVC.swift */,
+				64517F3C20D16DB800C7D91A /* MyProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -209,8 +218,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64517F2220D1559300C7D91A /* ViewController.swift in Sources */,
+				64517F3B20D16DA400C7D91A /* ExerciseVC.swift in Sources */,
 				64517F2020D1559300C7D91A /* AppDelegate.swift in Sources */,
+				64517F3D20D16DB800C7D91A /* MyProfileVC.swift in Sources */,
+				64517F3920D16C3400C7D91A /* HomeVC.swift in Sources */,
+				64517F3720D1598300C7D91A /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
