@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		641B134120E9204A00DBB4AB /* FitmeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641B134020E9204A00DBB4AB /* FitmeTests.swift */; };
+		643D9C6720E19C56008EB529 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D9C6520E19C56008EB529 /* GradientView.swift */; };
+		643D9C6920E19CB9008EB529 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D9C6820E19CB9008EB529 /* Utils.swift */; };
+		643D9C6B20E1AAF0008EB529 /* AddMesurementsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D9C6A20E1AAF0008EB529 /* AddMesurementsVC.swift */; };
 		64517F2020D1559300C7D91A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64517F1F20D1559300C7D91A /* AppDelegate.swift */; };
 		64517F2520D1559300C7D91A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64517F2320D1559300C7D91A /* Main.storyboard */; };
 		64517F2720D1559500C7D91A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64517F2620D1559500C7D91A /* Assets.xcassets */; };
@@ -17,10 +21,26 @@
 		AF4DD5844891BA05B9E38851 /* Pods_Fitme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E371B240466D194287A1ED5 /* Pods_Fitme.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		641B134320E9204A00DBB4AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64517F1420D1559300C7D91A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64517F1B20D1559300C7D91A;
+			remoteInfo = Fitme;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		0C64EFAA0D13775CE02AC885 /* Pods-Fitme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fitme/Pods-Fitme.debug.xcconfig"; sourceTree = "<group>"; };
 		2E371B240466D194287A1ED5 /* Pods_Fitme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fitme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		416D73BACF9BE06AB9A15441 /* Pods-Fitme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitme.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fitme/Pods-Fitme.release.xcconfig"; sourceTree = "<group>"; };
+		641B133E20E9204A00DBB4AB /* FitmeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitmeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		641B134020E9204A00DBB4AB /* FitmeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitmeTests.swift; sourceTree = "<group>"; };
+		641B134220E9204A00DBB4AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		643D9C6520E19C56008EB529 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		643D9C6820E19CB9008EB529 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		643D9C6A20E1AAF0008EB529 /* AddMesurementsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMesurementsVC.swift; sourceTree = "<group>"; };
 		64517F1C20D1559300C7D91A /* Fitme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64517F1F20D1559300C7D91A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64517F2420D1559300C7D91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +53,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		641B133B20E9204A00DBB4AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64517F1920D1559300C7D91A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,10 +80,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		641B133F20E9204A00DBB4AB /* FitmeTests */ = {
+			isa = PBXGroup;
+			children = (
+				641B134020E9204A00DBB4AB /* FitmeTests.swift */,
+				641B134220E9204A00DBB4AB /* Info.plist */,
+			);
+			path = FitmeTests;
+			sourceTree = "<group>";
+		};
 		64517F1320D1559300C7D91A = {
 			isa = PBXGroup;
 			children = (
 				64517F1E20D1559300C7D91A /* Fitme */,
+				641B133F20E9204A00DBB4AB /* FitmeTests */,
 				64517F1D20D1559300C7D91A /* Products */,
 				3749EB9F91EE27BF8BB898DE /* Pods */,
 				7398EFC7C8583AB9B650E962 /* Frameworks */,
@@ -67,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				64517F1C20D1559300C7D91A /* Fitme.app */,
+				641B133E20E9204A00DBB4AB /* FitmeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,6 +130,7 @@
 				64517F3820D16C3400C7D91A /* HomeVC.swift */,
 				64517F3A20D16DA400C7D91A /* ExerciseVC.swift */,
 				64517F3C20D16DB800C7D91A /* MyProfileVC.swift */,
+				643D9C6A20E1AAF0008EB529 /* AddMesurementsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -114,6 +153,8 @@
 		64517F3520D1573300C7D91A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				643D9C6520E19C56008EB529 /* GradientView.swift */,
+				643D9C6820E19CB9008EB529 /* Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -129,6 +170,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		641B133D20E9204A00DBB4AB /* FitmeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641B134720E9204A00DBB4AB /* Build configuration list for PBXNativeTarget "FitmeTests" */;
+			buildPhases = (
+				641B133A20E9204A00DBB4AB /* Sources */,
+				641B133B20E9204A00DBB4AB /* Frameworks */,
+				641B133C20E9204A00DBB4AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				641B134420E9204A00DBB4AB /* PBXTargetDependency */,
+			);
+			name = FitmeTests;
+			productName = FitmeTests;
+			productReference = 641B133E20E9204A00DBB4AB /* FitmeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		64517F1B20D1559300C7D91A /* Fitme */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64517F2E20D1559500C7D91A /* Build configuration list for PBXNativeTarget "Fitme" */;
@@ -157,6 +216,10 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = LMS;
 				TargetAttributes = {
+					641B133D20E9204A00DBB4AB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 64517F1B20D1559300C7D91A;
+					};
 					64517F1B20D1559300C7D91A = {
 						CreatedOnToolsVersion = 9.4;
 					};
@@ -176,11 +239,19 @@
 			projectRoot = "";
 			targets = (
 				64517F1B20D1559300C7D91A /* Fitme */,
+				641B133D20E9204A00DBB4AB /* FitmeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		641B133C20E9204A00DBB4AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64517F1A20D1559300C7D91A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,6 +285,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		641B133A20E9204A00DBB4AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641B134120E9204A00DBB4AB /* FitmeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64517F1820D1559300C7D91A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -221,12 +300,23 @@
 				64517F3B20D16DA400C7D91A /* ExerciseVC.swift in Sources */,
 				64517F2020D1559300C7D91A /* AppDelegate.swift in Sources */,
 				64517F3D20D16DB800C7D91A /* MyProfileVC.swift in Sources */,
+				643D9C6B20E1AAF0008EB529 /* AddMesurementsVC.swift in Sources */,
+				643D9C6920E19CB9008EB529 /* Utils.swift in Sources */,
 				64517F3920D16C3400C7D91A /* HomeVC.swift in Sources */,
 				64517F3720D1598300C7D91A /* LoginVC.swift in Sources */,
+				643D9C6720E19C56008EB529 /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		641B134420E9204A00DBB4AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64517F1B20D1559300C7D91A /* Fitme */;
+			targetProxy = 641B134320E9204A00DBB4AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		64517F2320D1559300C7D91A /* Main.storyboard */ = {
@@ -240,6 +330,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		641B134520E9204A00DBB4AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KB23CHE2XX;
+				INFOPLIST_FILE = FitmeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utp.FitmeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitme.app/Fitme";
+			};
+			name = Debug;
+		};
+		641B134620E9204A00DBB4AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KB23CHE2XX;
+				INFOPLIST_FILE = FitmeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utp.FitmeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitme.app/Fitme";
+			};
+			name = Release;
+		};
 		64517F2C20D1559500C7D91A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -395,6 +525,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		641B134720E9204A00DBB4AB /* Build configuration list for PBXNativeTarget "FitmeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641B134520E9204A00DBB4AB /* Debug */,
+				641B134620E9204A00DBB4AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		64517F1720D1559300C7D91A /* Build configuration list for PBXProject "Fitme" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
